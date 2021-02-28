@@ -25,6 +25,10 @@ chmod +x cape2.sh
 set NETWORK_IFACE to vboxnet0
 set IFACE_IP to 0.0.0.0 - note: this will bind tor to all the ports and will allow other people to use your host as a proxy, i set it to 0.0.0.0 due to some issues i was having
 Change PASSWD
+under function install_osslsigncode, change
+    sudo apt-get update && sudo apt-get install build-essential autoconf libtool libssl-dev python3-pkgconfig libcurl4-gnutls-dev
+to
+    sudo apt-get update && sudo apt-get install build-essential autoconf libtool libssl-dev python3-pkgconfig libcurl4-gnutls-dev -y
 ```
 6. Run `sudo ./cape2.sh base cape | tee cape.log`
 7. Configuring CAPE
