@@ -19,6 +19,9 @@ VBoxManage hostonlyif ipconfig vboxnet0 --ip 192.168.56.1 --netmask 255.255.255.
 ```
 5. Download cape2.sh from https://github.com/doomedraven/Tools/blob/master/Sandbox/cape2.sh and modify it
 ```
+wget https://raw.githubusercontent.com/doomedraven/Tools/master/Sandbox/cape2.sh
+chmod +x cape2.sh
+
 set NETWORK_IFACE to vboxnet0
 set IFACE_IP to 0.0.0.0 - note: this will bind tor to all the ports and will allow other people to use your host as a proxy, i set it to 0.0.0.0 due to some issues i was having
 Change PASSWD
