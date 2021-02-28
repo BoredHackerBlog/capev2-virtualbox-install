@@ -2,7 +2,7 @@
 scripts and files for installing cape v2 sandbox w/ virtualbox
 
 1. Install Ubuntu 20.04 64-bit Desktop
-2. Create/User username cape
+2. Create/Use username cape
 3. Install Virtualbox
 ```
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
