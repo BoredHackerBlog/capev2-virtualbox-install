@@ -1,6 +1,8 @@
 # capev2-virtualbox-install
 scripts and files for installing cape v2 sandbox w/ virtualbox
 
+running main.sh should work or steps below can be used too.
+
 1. Install Ubuntu 20.04 64-bit Desktop
 2. Create/Use username cape
 3. Install Virtualbox
